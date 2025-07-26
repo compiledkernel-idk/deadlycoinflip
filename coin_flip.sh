@@ -5,7 +5,7 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-echo "Welcome to the Coin Flip Game!"
+echo "coin flip game"
 echo "Choose heads or tails:"
 read user_choice
 
